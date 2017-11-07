@@ -189,7 +189,7 @@ function moveDodgerLeft() {
      }
 
      if (dodgerLeft > 0) {
-       
+
       requestAnimationFrame(moveLeft)
 
      }
