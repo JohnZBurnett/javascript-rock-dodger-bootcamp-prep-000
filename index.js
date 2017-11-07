@@ -146,7 +146,7 @@ function endGame() {
   // stop checking for when arrow keys are pressed
   window.removeEventListener('keydown', moveDodger)
 
-  document.getElementByID(game).append("PLAY AGAIN?")
+  document.getElementById(game).append("PLAY AGAIN?")
 
 
 }
@@ -187,7 +187,7 @@ function moveDodgerLeft() {
        DODGER.style.left = `${dodgerLeft -= 4}px`
      }
 
-     if (dodgerLeft > 40) {
+     if (dodgerLeft > 0) {
 
 
       requestAnimationFrame(moveLeft)
