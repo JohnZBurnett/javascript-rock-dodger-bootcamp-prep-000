@@ -144,6 +144,7 @@ function endGame() {
   }
 
   // stop checking for when arrow keys are pressed
+  window.removeEventListener('keydown', moveDodger)
   START.innerhtml = "Play again?"
   START.style.display = "inline"
 
