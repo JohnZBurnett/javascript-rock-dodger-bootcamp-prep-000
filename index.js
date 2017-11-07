@@ -137,6 +137,8 @@ function endGame() {
     ROCKS.pop()
   }
 
+  ROCKS.forEach(function(rock) {rock.remove() })
+
   /*var rocks = document.getElementsByClassName("rock")
 
   while (rocks.length > 0) {
