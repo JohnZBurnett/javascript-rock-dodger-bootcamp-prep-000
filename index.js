@@ -189,9 +189,9 @@ function moveDodgerLeft() {
      }
 
      if (dodgerLeft > 0) {
-
-
+       
       requestAnimationFrame(moveLeft)
+
      }
 
 
@@ -213,11 +213,11 @@ function moveDodgerRight() {
        DODGER.style.left = `${dodgerLeft += 4}px`
      }
 
-     if (dodgerLeft < 396) {
+     if (dodgerLeft < 360) {
        requestAnimationFrame(moveRight)
-}
+     }
 
-}
+  }
 
 /**
  * @param {string} p The position property
