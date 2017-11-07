@@ -133,15 +133,15 @@ function endGame() {
   // clear the game interval
   clearInterval(gameInterval);
 
-  /*while (ROCKS.length > 0) {
+ while (ROCKS.length > 0) {
     ROCKS.pop()
-  }*/
+  }
 
-  var rocks = document.getElementsByClassName("rock")
+  /*var rocks = document.getElementsByClassName("rock")
 
   while (rocks.length > 0) {
     rocks[0].parentNode.removeChild(rocks[0])
-  }
+  } */
 
   // stop checking for when arrow keys are pressed
   window.removeEventListener('keydown', moveDodger)
