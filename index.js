@@ -144,7 +144,7 @@ function endGame() {
   }
 
   // stop checking for when arrow keys are pressed
-  START.innerhtml("Play again?")
+  START.innerhtml = "Play again?"
   START.style.display("inline")
 
 
