@@ -146,7 +146,7 @@ function endGame() {
   // stop checking for when arrow keys are pressed
   window.removeEventListener('keydown', moveDodger)
 
-  $("#game").append("PLAY AGAIN?")
+  document.getElementByID(game).append("PLAY AGAIN?")
 
 
 }
