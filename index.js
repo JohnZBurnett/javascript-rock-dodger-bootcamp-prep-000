@@ -188,7 +188,7 @@ function moveDodgerLeft() {
        DODGER.style.left = `${dodgerLeft -= 4}px`
      }
 
-     if (dodgerLeft > 0) {
+     if (dodgerLeft > 4) {
 
 
       requestAnimationFrame(moveLeft)
