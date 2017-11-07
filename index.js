@@ -133,9 +133,9 @@ function endGame() {
   // clear the game interval
   clearInterval(gameInterval);
 
- while (ROCKS.length > 0) {
+ /* while (ROCKS.length > 0) {
     ROCKS.pop()
-  }
+  } */
 
   ROCKS.forEach(function(rock) {rock.remove() })
 
